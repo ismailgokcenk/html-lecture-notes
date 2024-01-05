@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kayıt Formu</title>
+</head>
+<body>
+  <form action="kayit.php" method="post" style="margin: 0 auto; width: 500px;">
+    <table>
+      <tr style="text-align: center;">
+        <th colspan="2"><h1>Kayıt Formu</h1></th>
+      </tr>
+      <tr>
+        <th>Ad</th>
+        <td><input type="text" name="ad" placeholder="Adınız" width="200px"></td>
+      </tr>
+      <tr>
+        <th>Soyad</th>
+        <td><input type="text" name="soyad" placeholder="Soyadınız" width="200px"></td>
+      </tr>
+      <tr>
+        <th>Cinsiyet</th>
+        <td>
+          <input type="radio" name="cinsiyet" value="bay"> Bay
+          <input type="radio" name="cinsiyet" value="bayan"> Bayan
+        </td>
+      </tr>
+      <tr>
+        <th>Hobileri</th>
+        <td>
+          <input type="checkbox" name="hobiler[]" value="futbol"> Futbol
+          <input type="checkbox" name="hobiler[]" value="voleybol"> Voleybol
+          <input type="checkbox" name="hobiler[]" value="basketbol"> Basketbol
+        </td>
+      </tr>
+      <tr>
+        <th>Profil Fotoğrafı</th>
+        <td><input type="file" name="profil_fotografi"></td>
+      </tr>
+      <tr>
+        <th>İlçe</th>
+        <td><input type="text" name="ilce" placeholder="İlçeniz" width="200px"></td>
+      </tr>
+      <tr>
+        <th>Doğum Tarihi</th>
+        <td><input type="date" name="dogum_tarihi"></td>
+      </tr>
+      <tr>
+        <th>Eposta Adresi</th>
+        <td><input type="email" name="eposta" placeholder="Eposta adresiniz" width="200px"></td>
+      </tr>
+      <tr>
+        <th>Adres</th>
+        <td><input type="text" name="adres" placeholder="Adresiniz" width="200px"></td>
+      </tr>
+      <tr>
+        <th>Kişisel Site</th>
+        <td><input type="url" name="kisisel_site" placeholder="Kişisel siteniz" width="200px"></td>
+      </tr>
+      <tr>
+        <th>Telefon</th>
+        <td><input type="text" name="telefon" placeholder="Telefon numaranız" width="200px"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="submit" value="Kayıt Ol"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

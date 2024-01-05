@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-2</title>
+  </head>
+  <body>
+    <form method="post" action="/users/login" target="_blank">
+      <input
+        type="text"
+        name="name"
+        required
+        placeholder="Adinizi giriniz"
+      /><br /><br />
+      <input
+        type="text"
+        name="surname"
+        required
+        placeholder="Soyadinizi giriniz"
+      /><br /><br />
+      <input
+        type="number"
+        name="number"
+    
+        placeholder="maasini giriniz"
+      /><br /><br />
+      <input
+        type="email"
+        name="email"
+        required
+        placeholder="email adresinizi giriniz"
+      /><br /><br />
+      <input
+        type="tel"
+        name="phone"
+        placeholder="tel nonuzu giriniz"
+      /><br /><br />
+      <input
+        type="password"
+        name="password"
+        minlength="5"
+        maxlength="20"
+        required
+        placeholder="sifrenizi giriniz"
+      /><br /><br />
+      <input
+        type="search"
+        name="search"
+        placeholder="neyi aramak istiyorsunuz?"
+      /><br /><br />
+      <input type="url" name="website" /><br /><br />
+      <input type="hidden" name="code" /><br /><br />
+      <input type="radio" name="cinsiyet" id="e" />
+      <label for="e">Erkek</label>
+      <input type="radio" name="cinsiyet" id="k" checked />
+      <label for="k">Kadin</label><br /><br />
+      <input type="checkbox" id="chk" checked disabled />
+ 
+      <label for="chk" name="user">Maasimi eksiksiz aldim</label>
+     <br>  <br>
+      <input type="file" name="cv">
+      <br>  <br>
+      <input type="color" name="color">
+      <br>  <br>
+      <input type="range" name="range">
+     
+      <br>  <br>
+      <input type="date" name="date" >
+      <br>  <br>
+      <input type="datetime-local" name="dateTime" >
+      <br>  <br>
+      <input type="time" name="timeime" >
+      <br>  <br>
+      <input type="month" name="month" >
+      <br>  <br>
+      <input type="week" name="week" >
+      <br>  <br>
+      <select name="cities" multiple size="5" >
+        <option value="" disabled>Lutfen bir sehir seciniz</option>
+        <option value="06">Ankara</option>
+        <option value="61">Trabzon</option>
+        <option value="08">Artvin</option>
+        <option value="44">Malatya</option>
+        <option value="19">Corum</option>
+      </select>
+      <br>
+      <br>
+      <select name="meals" multiple size="2">
+        <option value="1">Hamsi Tava  </option>
+        <option value="2">Hamsi Buglama </option>
+        <option value="3">Hamsi Izgara </option>
+        <option value="4">Hamsi Tursusu</option>
+      </select>
+      <br>
+      <br>
+      <textarea name="comment" id="com" cols="30" rows="10" maxlength="12"></textarea>
+      <br>
+      <input type="button" value="Kaydet">
+      <input type="submit" value="Gonder">
+      <input type="reset" value="Temizle">
+  </body>
+</html>
