@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+    <h1>Homework</h1>
+    <form>
+    <table>
+        <tbody>
+            <tr>
+                <td>Adi</td>
+                <td><input type="text" name="name"></td>
+                <td rowspan="3">Hobiler</td>
+                <td><input type="checkbox" id="chk">
+                    <label for="chk" name="user">Futbol</label></td>
+            </tr>
+            <tr>
+                <td>Soyadi</td>
+                <td><input type="text" name="surname"></td>
+                <td><input type="checkbox" id="chk">
+                    <label for="chk" name="user">Voleybol</label></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Cinsiyet</td>
+                <td>
+                    <input type="radio" name="gender" id="e">
+                    <label for="e">Erkek</label>
+                    <input type="radio" name="gender" id="k">
+                    <label for="k">Kadin</label>
+                </td>
+                <td><input type="checkbox" id="chk">
+                    <label for="chk" name="user">Basketbol</label></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Ilce</td>
+                <td>
+                    <select name="cities" multiple size="5">
+                    <option value="" disabled>Lutfen bir sehir seciniz</option>
+                    <option value="">Fatsa</option>
+                    <option value="">Unye</option>
+                    <option value="">Persembe</option>
+                    <option value="">Mesudiye</option>
+                    <option value="">Kumru</option>
+                    </select>
+                </td>
+                <td>Profil fotografi</td>
+                <td><input type="file" name="file"></td></td>
+            </tr>
+            <tr>
+                <td>E-posta</td>
+                <td><input type="email" name="email"></td>
+                <td>Dogum Tarihi</td>
+                <td><input type="date" name="birthday"></td>
+            </tr>
+            <tr>
+                <td>Kisisel site</td>
+                <td><input type="url" name="website"></td>
+                <td><label for="adres">Adres</label></td>
+                <td>
+                <textarea name="adres" id="adres" rows="5" cols="20"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Telefon</td>
+                <td><input type="tel" name="phone"></td>
+                <td></td>
+                <td><input type="button" value="Kaydol"></td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+</body>
+</html>

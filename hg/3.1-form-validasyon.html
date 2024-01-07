@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validation</title>
+  </head>
+  <body>
+    <h1><strong>TABLE</strong></h1>
+    <form>
+      <table>
+        <tr>
+          <td>Adi</td>
+          <td><input type="text" name="name" /></td>
+          <td rowspan="3">Hobiler</td> 
+          <td>
+            <input type="checkbox" id="chk" />
+            <label for="chk" name="user">Futbol</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Soyadı</td>
+          <td><input type="text"></td>
+          <td><input type="checkbox">Voleybol</td>
+        </tr>
+        <tr>
+          <td>Cinsiyet</td>
+          <td><input type="radio">Erkek<input type="radio">Kadın</td>
+          <td><input type="checkbox">Basketbol</td>
+        </tr>
+        <tr>
+          <td>Ilce</td>
+
+          <td><select name="Ilce" id="ilc" multiple size="5">
+            <option value=""disabled>Lütfen ilce seciniz</option>
+            <option value="">Sariyer</option>
+            <option value="">Besiktas</option>
+            <option value="">Sisli</option>
+            <option value="">Eyüp</option>
+            <option value="">Fatih</option>
+          </select>
+          <td>Profil Fotografi</td>
+          <td><input type="file"></td>
+          
+        </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
